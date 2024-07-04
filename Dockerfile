@@ -2,5 +2,6 @@ FROM continuumio/anaconda3:4.4.0
 COPY . /usr/app/
 EXPOSE 5000
 WORKDIR /usr/app/
+RUN pip install --no-cache-dir --upgrade pip
 RUN pip install --no-cache-dir --trusted-host pypi.python.org -r requirements.txt
 CMD python app.py
