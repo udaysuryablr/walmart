@@ -11,15 +11,17 @@ html, body {
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     overflow: hidden;
-    background: linear-gradient(135deg, #ff6f61, #d62d2a);
+    background: linear-gradient(to bottom, #005f73, #0a9396);
     color: #fff;
     text-align: center;
 }
 
 body {
-    background: radial-gradient(circle, rgba(255, 182, 193, 0.5), rgba(255, 99, 71, 0.4)), 
-                linear-gradient(to top, rgba(255, 69, 0, 0.7), rgba(255, 140, 0, 0.3));
+    background: linear-gradient(135deg, #005f73, #0a9396),
+                url('https://www.transparenttextures.com/patterns/triangle.png'), 
+                url('https://www.transparenttextures.com/patterns/dark-tileable.png');
     background-blend-mode: multiply;
+    background-size: cover, 100%, 100%;
     font-size: 18px;
     letter-spacing: 1.2px;
 }
@@ -31,11 +33,11 @@ body {
     transform: translate(-50%, -50%);
     width: 100%;
     max-width: 400px;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     padding: 30px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(15px);
 }
 
 .login h1 {
@@ -43,6 +45,7 @@ body {
     text-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
     margin-bottom: 20px;
     font-weight: 600;
+    font-size: 2em;
 }
 
 input, select {
@@ -59,9 +62,9 @@ input, select {
 }
 
 input:focus, select:focus {
-    border-color: #ff6f61;
+    border-color: #0a9396;
     background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0 0 10px rgba(255, 105, 97, 0.5);
+    box-shadow: 0 0 10px rgba(10, 147, 150, 0.5);
     outline: none;
 }
 
@@ -70,7 +73,7 @@ button {
     padding: 12px 16px;
     font-size: 16px;
     color: #fff;
-    background: linear-gradient(135deg, #ff6f61, #ff5722);
+    background: linear-gradient(135deg, #0a9396, #005f73);
     border: none;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -80,12 +83,12 @@ button {
 }
 
 button:hover {
-    background: linear-gradient(135deg, #ff5722, #ff6f61);
+    background: linear-gradient(135deg, #005f73, #0a9396);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
 }
 
 button:active {
-    background: linear-gradient(135deg, #ff6f61, #ff5722);
+    background: linear-gradient(135deg, #0a9396, #005f73);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
