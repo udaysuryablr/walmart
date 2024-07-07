@@ -11,17 +11,16 @@ html, body {
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     overflow: hidden;
-    background: linear-gradient(to bottom, #005f73, #0a9396);
+    background: linear-gradient(135deg, #005f73, #0a9396),
+                url('https://www.w3schools.com/w3images/ocean.jpg');
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
     color: #fff;
     text-align: center;
 }
 
 body {
-    background: linear-gradient(135deg, #005f73, #0a9396),
-                url('https://www.transparenttextures.com/patterns/triangle.png'), 
-                url('https://www.transparenttextures.com/patterns/dark-tileable.png');
-    background-blend-mode: multiply;
-    background-size: cover, 100%, 100%;
     font-size: 18px;
     letter-spacing: 1.2px;
 }
@@ -33,7 +32,7 @@ body {
     transform: translate(-50%, -50%);
     width: 100%;
     max-width: 400px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.2);
     border-radius: 12px;
     padding: 30px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
@@ -51,8 +50,8 @@ body {
 input, select {
     width: 100%;
     margin-bottom: 12px;
-    background: rgba(255, 255, 255, 0.15);
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.6);
     padding: 12px;
     font-size: 16px;
     color: #fff;
@@ -63,8 +62,8 @@ input, select {
 
 input:focus, select:focus {
     border-color: #0a9396;
-    background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0 0 10px rgba(10, 147, 150, 0.5);
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 10px rgba(10, 147, 150, 0.6);
     outline: none;
 }
 
