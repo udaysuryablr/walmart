@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Arimo:wght@400;700&family=Hind:wght@300&family=Open+Sans+Condensed:wght@300&display=swap');
 
 * {
     box-sizing: border-box;
@@ -9,13 +9,12 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     overflow: hidden;
     background: linear-gradient(135deg, #005f73, #0a9396),
-                url('https://www.w3schools.com/w3images/ocean.jpg');
+                url('https://www.w3schools.com/w3images/ocean.jpg') no-repeat center center fixed;
     background-blend-mode: overlay;
     background-size: cover;
-    background-position: center;
     color: #fff;
     text-align: center;
 }
@@ -43,7 +42,7 @@ body {
     color: #ffffff;
     text-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
     margin-bottom: 20px;
-    font-weight: 600;
+    font-family: 'Pacifico', cursive;
     font-size: 2em;
 }
 
